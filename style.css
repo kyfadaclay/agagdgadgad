@@ -8,9 +8,7 @@ body {
     text-align: center;
     font-size: 35px;
   }
-  .header p {
-  text-size: 24px;
-  }
+
   section {
    width: 90%; /* Set the desired width */
    margin: 0 auto; /* Set left and right margins to auto */
