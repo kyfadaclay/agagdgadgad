@@ -4,7 +4,7 @@ const loader = document.querySelector('.loader-box');
 getVideos();
 
 function getVideos() {
-    fetch('https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&playlistId=PLEtNzPSBOVubGMuAk0wAtejQ3WGf1MijK&key=AIzaSyDl1IUMyjH7lEiNuu_Cnx37quExHsiE2fg')
+    fetch('https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&playlistId=PLEtNzPSBOVubGMuAk0wAtejQ3WGf1MijK&key=AIzaSyDjJMAgP12zSRKTx0DzA48TKhXifmgCyxk')
         .then(res => res.json())
         .then(data => {
             loader.style.display = 'none'; 
